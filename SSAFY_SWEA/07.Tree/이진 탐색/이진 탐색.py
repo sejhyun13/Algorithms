@@ -1,6 +1,7 @@
 # 중위 탐색하는 문제임
 
-import sys;sys.stdin = open('이진탐색input.txt')
+import sys, os
+if os.path.exists(_f := __file__.replace('.py', 'input.txt')): sys.stdin = open(_f)
 
 
 def recur(node):
