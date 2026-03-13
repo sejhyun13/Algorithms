@@ -1,8 +1,8 @@
 T = int(input())
-for tc in range(T):
+for _ in range(T):
     m = int(input())
     nums = []
-    for i in range(m // 10 + 1):
+    for _ in range(m // 10 + 1):
         nums += list(map(int, input().split()))
 
     print(m // 2 + 1)
